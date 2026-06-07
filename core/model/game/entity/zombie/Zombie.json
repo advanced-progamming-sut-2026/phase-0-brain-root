@@ -1,0 +1,42 @@
+[
+  {
+    "alias": "ZombieMummyDefault",
+    "health": 190,
+    "speed": 0.185,
+    "damage": 100,
+    "cost": 150,
+    "wavePointCost": 100
+  },
+  {
+    "alias": "ZombieMummyArmor1Default",
+    "health": 190,
+    "speed": 0.185,
+    "damage": 100,
+    "cost": 150,
+    "wavePointCost": 200
+  },
+  {
+    "alias": "ZombieMummyArmor2Default",
+    "health": 190,
+    "speed": 0.185,
+    "damage": 100,
+    "cost": 150,
+    "wavePointCost": 400
+  },
+  {
+    "alias": "ZombieDarkArmor3Default",
+    "health": 190,
+    "speed": 0.185,
+    "damage": 100,
+    "cost": 150,
+    "wavePointCost": 550
+  },
+  {
+    "alias": "ZombieMummyArmor4Default",
+    "health": 190,
+    "speed": 0.185,
+    "damage": 100,
+    "cost": 150,
+    "wavePointCost": 700
+  }
+]
