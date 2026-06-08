@@ -1,10 +1,10 @@
 package core.engine;
 
 
-import core.model.game.entity.plant.Plant;
-import core.model.game.entity.zombie.Zombie;
+import core.model.game.entity.unit.plant.Plant;
+import core.model.game.entity.unit.zombie.Zombie;
 import core.model.game.gameplay.LevelConfig;
-import core.model.game.gameplay.Tile;
+import core.model.game.entity.tile.Tile;
 
 import java.util.List;
 
