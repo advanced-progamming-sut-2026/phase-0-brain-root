@@ -1,11 +1,9 @@
 package core.model.user;
 
 import core.model.game.GameSettings;
+import core.model.game.player.Player;
 import core.util.PasswordHasher;
 import core.model.user.enums.Gender;
-import core.model.game.player.Inventory;
-import core.model.game.player.Wallet;
-
 public class User
 {
     private String username;
@@ -13,9 +11,7 @@ public class User
     private String nickname;
     private Gender gender;
     private String email;
-    private Wallet wallet = new Wallet();
-    private Inventory inventory = new Inventory();
-    private UserStats userStats = new UserStats();
+    private Player player = new Player();
     private GameSettings gameSettings = new GameSettings();
 
     public User(String username, String password, String nickname, Gender gender, String email)

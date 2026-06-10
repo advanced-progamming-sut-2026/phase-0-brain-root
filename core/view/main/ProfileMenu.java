@@ -1,5 +1,7 @@
 package core.view.main;
 
-public class ProfileMenu
+import core.view.Menu;
+
+public class ProfileMenu  extends Menu
 {
 }

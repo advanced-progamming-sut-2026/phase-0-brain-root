@@ -1,5 +1,7 @@
 package core.view.main;
 
-public class NewsMenu
+import core.view.Menu;
+
+public class NewsMenu extends Menu
 {
 }

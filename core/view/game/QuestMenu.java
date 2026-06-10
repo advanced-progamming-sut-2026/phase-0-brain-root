@@ -1,5 +1,7 @@
 package core.view.game;
 
-public class QuestMenu
+import core.view.Menu;
+
+public class QuestMenu  extends Menu
 {
 }

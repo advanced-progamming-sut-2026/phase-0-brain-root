@@ -1,6 +1,6 @@
 package core.model.game.entity.tile;
 
-import core.engine.Match;
+import core.model.game.gameplay.match.Match;
 import core.engine.Tickable;
 import core.model.game.entity.Entity;
 import core.model.game.entity.unit.zombie.Zombie;

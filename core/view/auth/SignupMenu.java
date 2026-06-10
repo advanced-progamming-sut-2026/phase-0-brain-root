@@ -1,5 +1,7 @@
 package core.view.auth;
 
-public class SignupMenu
+import core.view.Menu;
+
+public class SignupMenu  extends Menu
 {
 }

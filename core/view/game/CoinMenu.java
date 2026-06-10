@@ -1,5 +1,7 @@
 package core.view.game;
 
-public class CoinMenu
+import core.view.Menu;
+
+public class CoinMenu  extends Menu
 {
 }

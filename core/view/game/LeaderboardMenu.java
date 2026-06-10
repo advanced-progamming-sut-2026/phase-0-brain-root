@@ -1,5 +1,7 @@
 package core.view.game;
 
-public class LeaderboardMenu
+import core.view.Menu;
+
+public class LeaderboardMenu  extends Menu
 {
 }

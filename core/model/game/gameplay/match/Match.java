@@ -1,35 +1,33 @@
-package core.engine;
+package core.model.game.gameplay.match;
 
 
+import core.engine.CooldownManager;
+import core.model.game.entity.projectile.Projectile;
 import core.model.game.entity.unit.plant.Plant;
 import core.model.game.entity.unit.zombie.Zombie;
-import core.model.game.gameplay.LevelConfig;
 import core.model.game.entity.tile.Tile;
+import core.model.game.gameplay.levelConfig.LevelConfig;
 
 import java.util.List;
 
-public class Match
+public abstract class Match
 {
-    private final LevelConfig levelConfig = new LevelConfig();
+    private final LevelConfig levelConfig;
     private final Tile[][] grid;
     private final List<Plant> plants;
     private final List<Zombie> zombies;
     private final List<Projectile> projectiles;
     private final CooldownManager cooldownManager;
+    private int sunAmount = 0;
 
-    public Match(Tile[][] grid, List<Plant> plants, List<Zombie> zombies, List<Projectile> projectiles,
-                 CooldownManager cooldownManager) //projectile is an example
+    public Match(LevelConfig levelConfig)
     {
-        this.grid = grid;
-        this.plants = plants;
-        this.zombies = zombies;
-        this.projectiles = projectiles;
-        this.cooldownManager = cooldownManager;
+        //set fields
     }
 
     public void advanceTick()
     {
-        cooldownManager.tick(this);
+        cooldownManager.advanceTick(this);
 
         for (int i = 0; i < grid.length; i++)
         {
@@ -46,12 +44,12 @@ public class Match
 
         for (Zombie zombie : zombies)
         {
-            zombie.tick(this);
+            zombie.advanceTick(this);
         }
 
         for (Projectile projectile : projectiles)
         {
-            projectile.tick(this);
+            projectile.advanceTick(this);
         }
     }
 
@@ -65,8 +63,8 @@ public class Match
         return plants;
     }
 
-    public void addProjectile(Projectile projectile)
+    public List<Projectile> getProjectiles()
     {
-        projectiles.add(projectile);
+        return projectiles;
     }
 }

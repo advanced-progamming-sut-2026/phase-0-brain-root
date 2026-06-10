@@ -1,5 +1,7 @@
 package core.view.game;
 
-public class GemMenu
+import core.view.Menu;
+
+public class GemMenu extends Menu
 {
 }

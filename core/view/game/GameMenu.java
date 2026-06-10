@@ -1,5 +1,8 @@
 package core.view.game;
 
-public class GameMenu
+import core.view.Menu;
+
+public class GameMenu extends Menu
 {
+
 }

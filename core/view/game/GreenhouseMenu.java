@@ -1,5 +1,7 @@
 package core.view.game;
 
-public class GreenhouseMenu
+import core.view.Menu;
+
+public class GreenhouseMenu  extends Menu
 {
 }

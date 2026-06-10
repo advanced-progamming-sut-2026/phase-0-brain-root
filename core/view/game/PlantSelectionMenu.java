@@ -1,5 +1,7 @@
 package core.view.game;
 
-public class PlantSelectionMenu
+import core.view.Menu;
+
+public class PlantSelectionMenu  extends Menu
 {
 }
