@@ -1,7 +1,7 @@
 package core.model.game.entity.unit.plant;
 
 import core.engine.Tickable;
-import core.model.game.entity.Buyable;
+import core.model.game.entity.trait.Buyable;
 import core.model.game.entity.unit.Unit;
 import core.model.game.gameplay.match.Match;
 import core.util.Coordinate;

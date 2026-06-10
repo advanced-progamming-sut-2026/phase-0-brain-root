@@ -1,4 +1,4 @@
-package core.model.game.entity;
+package core.model.game.entity.trait;
 
 public interface CanDamage
 {

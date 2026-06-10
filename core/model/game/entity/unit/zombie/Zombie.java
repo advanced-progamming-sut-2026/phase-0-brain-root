@@ -1,8 +1,8 @@
 package core.model.game.entity.unit.zombie;
 
 import core.engine.Tickable;
-import core.model.game.entity.Moveable;
-import core.model.game.entity.CanDamage;
+import core.model.game.entity.trait.Moveable;
+import core.model.game.entity.trait.CanDamage;
 import core.model.game.entity.unit.Unit;
 import core.model.game.entity.unit.plant.Plant;
 import core.model.game.gameplay.match.Match;
