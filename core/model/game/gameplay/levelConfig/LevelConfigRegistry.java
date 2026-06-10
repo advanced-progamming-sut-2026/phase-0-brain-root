@@ -1,9 +1,8 @@
-package core.model.game.campaign;
+package core.model.game.gameplay.levelConfig;
 
-import core.model.game.gameplay.levelConfig.NormalGameLevelConfig;
 import core.model.game.gameplay.levelConfig.special.*;
 
-public class LevelRegistry
+public class LevelConfigRegistry
 {
 
     private final Class<?>[] specialLevelsSequence = {ConveyorBeltLevelConfig.class, LockedPlants1LevelConfig.class, //چطوری این اسپشیال لول خودش 2 تا مرحله س اخه

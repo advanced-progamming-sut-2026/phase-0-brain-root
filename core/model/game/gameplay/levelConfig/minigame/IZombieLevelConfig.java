@@ -2,8 +2,9 @@ package core.model.game.gameplay.levelConfig.minigame;
 
 import core.model.game.entity.unit.plant.Plant;
 import core.model.game.entity.unit.zombie.Zombie;
+import core.model.game.gameplay.levelConfig.LevelConfig;
 
-public class IZombieLevelConfig
+public class IZombieLevelConfig  extends LevelConfig
 {
     final int deadLine; //1 means plants are at max on row number 1
     final Plant[][] startingPlants;

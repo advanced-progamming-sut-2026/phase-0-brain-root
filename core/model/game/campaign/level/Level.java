@@ -5,7 +5,16 @@ import core.model.game.campaign.chapter.Chapter;
 
 public abstract class Level
 {
-    private Chapter chapter;
     private LevelConfig config;
+
+    public Level(LevelConfig config)
+    {
+        this.config = config;
+    }
+
+    public LevelConfig getConfig()
+    {
+        return config;
+    }
 }
 
